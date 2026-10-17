@@ -40,6 +40,6 @@ print(analyze_tasks([t]).tempo_medio_conclusao_horas)  # 6.0
 ```
 
 ## Status
-Fase 2: 18 testes, 100% aprovados, 100% de cobertura. Fase 3 (CI/CD, Docker): pendente.
+ Fase 2: 18 testes, 100% aprovados, 100% de cobertura. Fase 3 (CI/CD, Docker): pendente.
 
 Autor: Pedro Saldanha Santana — ADS, Turma A.
