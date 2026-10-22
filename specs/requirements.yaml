@@ -1,0 +1,16 @@
+# Requisitos do projeto TaskAnalyzer (resumo da especificação SDD)
+projeto: sdd-taskanalyzer
+linguagem:
+  python: ">=3.11"
+dependencias:
+  producao: []            # somente biblioteca padrão
+  testes:
+    - pytest>=8.0
+funcao_publica: "analyze_tasks(tarefas: list[Tarefa]) -> Metricas"
+excecao: TaskValidationError
+cenarios_aceite:
+  - sucesso_metricas_corretas
+  - erro_datas_invalidas
+  - erro_valores_fora_do_dominio
+  - borda_sem_tarefas_concluidas
+  - borda_lista_vazia
